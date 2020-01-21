@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<HTML lang="pt-br">
+
+<head>
+    <!--Início importação das bibliotecas JS online-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Fim importação das bibliotecas-->
+
+    <!--início importação dos arquivos externos-->
+    <link rel="stylesheet" type="text/css" href="../Assets/CSS/Style.css">
+    <script type="text/javascript" src="../Assets/JS/Script.js">
+    </script>
+    <!--fim importação dos arquivos-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="icon/png" href="../Assets/IMG/logo.png" />
+    <title>Teste Front-End Debora</title>
+</head>
+
+<body>
+    <!--início do "menu"-->
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+        <div class="col-sm-1">
+            <img src="../Assets/IMG/logo.png" title="Brazilian Biomes Logo" class="logo" width="100px" />
+        </div>
+
+        <div class="col-sm-10">
+            <h4>Teste de Front-End para Estágio</h4>
+        </div>
+    </nav>
+    <!--fim do "menu"-->
+    <br/>
+
+    <!--inicio do teste-->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Bem vindo(a)!</h1>
+            <p class="lead">Teste de Front-End</p>
+            <hr class="my-4">
+            <p>Olá! Este é o meu teste de front-end para estágio na VisualMix!
+                <br/> Espero que eu tenha alcançado o objetivo proposto e que gostem do resultado!
+                <br/> Esta página foi construída em HTML, CSS, Bootstrap e JavaScript.</p>
+        </div>
+        <hr/>
+        <h2 class="titulos">Animais em Extinção</h2>
+        <p class="titulos">Resultados encontrados:</p>
+
+        <div>
+
+        </div>
+
+        <!--início linha-->
+        <div class="row">
+            <!--início coluna-->
+            <div class="col-sm-12 centralizar" id="animalsCard">
+                <!--aqui entra o html dinâmico gerado pelo js-->
+            </div>
+
+            <div class="col-sm-12 centralizar">
+                <a href="#" id="verMais">Ver mais</a>
+            </div>
+            <!--fim coluna-->
+        </div>
+
+        <!--fim linha-->
+        <!--fim do teste/container-->
+        <hr/>
+        <h2 class="titulos">Informações da Desenvolvedora</h2>
+        <!--minhas informações-->
+        <section id="eu">
+            <div class="container my-3 py-5 text-center d-flex flex-row justify-content-center">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card cardinfos">
+                            <div class="card-body">
+                                <div class="row d-flex flex-row justify-content-center">
+                                    <img src="../Assets/IMG/debora.jpg" class="img-fluid rounded-circle" title="Dev Debora" id="minhaFoto" />
+                                </div>
+                                <br/>
+                                <h3>Debora Freitas Lobão, 18 | BR-PT</h3>
+                                <h6>Desenvolvedora Front-End & Técnica em Informática</h6>
+
+                                <h6>Design de Mídias Digitais - FATEC</h6>
+                                <hr/>
+                                <p style="text-align: left;">Experiência com análise e desenvolvimento Web - ColdFusion, ASP.NET, JavaScript, HTML, BootStrap, CSS e SASS.
+                                    <br/>Tenho habilidades com gramática das línguas portuguesa e inglesa, além de um básico na espanhola.</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="row">
+                                        <a href="https://www.instagram.com/theboraf/?fbclid=IwAR1PzLTTssTkaYbRaZuoMftFciZwi5qlHIRJ336NoMxFNQ0VwqKdKj46xqM">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        &nbsp;
+                                        <a href="https://www.facebook.com/theboraf">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                        &nbsp;
+                                        <a href="https://www.linkedin.com/in/debora-freitas-a07ab6162/">
+                                            <i class="fa fa-linkedin-square"></i>
+                                        </a>
+                                        &nbsp;
+                                        <a href="https://github.com/TheBora">
+                                            <i class="fa fa-github-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim minhas informações-->
+
+    </div>
+    <!--inicio rodapé/footer-->
+    <div class="bg-dark footer">
+        <h6>Desenvolvido por: Debora F. | Contato: (11) 95414-7543 </h6>
+        <h6>Todos os direitos reservados. &copy;<br/>Powered by VisualMix | 2020.</h6>
+    </div>
+    <!--fim rodapé/footer-->
+</body>
+
+</HTML>
